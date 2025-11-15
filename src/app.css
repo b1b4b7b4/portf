@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@theme {
+	--bg-primary: #0C151D;
+}
+
+body {
+	background-color: var(--bg-primary);
+}
