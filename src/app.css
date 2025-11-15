@@ -6,6 +6,7 @@
 	--bg-primary: #0C151D;
 }
 
-body {
+body,
+html {
 	background-color: var(--bg-primary);
 }

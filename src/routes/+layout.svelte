@@ -85,7 +85,7 @@
 			class="py-[6px] px-[6px] flex gap-[9px] bg-[#171F26] rounded-[10px]"
 		>
 			{@render Togglebtn("Portfolio", "/")}
-			{@render Togglebtn("Skills", "/skills")}
+			<!-- {@render Togglebtn("Skills", "/skills")} -->
 			{@render Togglebtn("Reviews", "/reviews")}
 		</div>
 	</div>
