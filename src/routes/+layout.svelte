@@ -61,7 +61,9 @@
 			>Download CV
 		</button>
 		<button
-			onclick={() => (window.location.href = "https://t.me/b1b4b7b4")}
+			onclick={() =>
+				(window.location.href =
+					"https://freelancehunt.com/freelancer/bibabuba.html")}
 			class="cursor-pointer w-full py-[13px] px-[29px] text-gray-400 text-xs font-medium font-['Poppins'] bg-[#171F26] rounded-[10px] border-blue-800"
 			>Contact me
 		</button>
@@ -84,6 +86,7 @@
 		>
 			{@render Togglebtn("Portfolio", "/")}
 			{@render Togglebtn("Skills", "/skills")}
+			{@render Togglebtn("Reviews", "/reviews")}
 		</div>
 	</div>
 
