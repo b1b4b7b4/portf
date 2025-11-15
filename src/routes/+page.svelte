@@ -38,17 +38,18 @@
 	{/snippet}
 	<div class="flex justify-around px-5 mb-[68px]">
 		{@render textBlock("7", "Years of work experience")}
-		{@render textBlock("100+", "Completed projects")}
-		{@render textBlock("170+", "Personal side projects")}
+		{@render textBlock("158", "Completed projects")}
+		{@render textBlock("171", "Personal side projects")}
 	</div>
 
 	<div class="flex gap-3.5 px-[22px]">
 		<button
-			class="w-full py-[13px] px-[29px] justify-start text-neutral-700 text-xs font-medium font-['Poppins'] bg-amber-200 rounded-[10px]"
+			class="cursor-pointer w-full py-[13px] px-[29px] justify-start text-neutral-700 text-xs font-medium font-['Poppins'] bg-amber-200 rounded-[10px]"
 			>Download CV
 		</button>
 		<button
-			class="w-full py-[13px] px-[29px] text-gray-400 text-xs font-medium font-['Poppins'] bg-[#171F26] rounded-[10px] border-blue-800"
+			onclick={() => (window.location.href = "https://t.me/b1b4b7b4")}
+			class="cursor-pointer w-full py-[13px] px-[29px] text-gray-400 text-xs font-medium font-['Poppins'] bg-[#171F26] rounded-[10px] border-blue-800"
 			>Contact me
 		</button>
 	</div>
